@@ -34,7 +34,7 @@ export const Box = styled.div`
 
     .boxContainer {
         background-color: rgba(255, 255, 255, 0.5);
-        height: 80vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;

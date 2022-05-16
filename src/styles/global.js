@@ -6,12 +6,12 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         outline: 0;
-        box-sizing: border-box
+        box-sizing: border-box;
     }
     body {
         background: url(${bodyImg}) center;
         background-repeat: no-repeat;
         background-size: cover;
-        max-height: 100vh;
+        height: 100vh;
     }
 `;
