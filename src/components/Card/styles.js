@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div`
 
     .album{
@@ -24,7 +22,7 @@ export const Container = styled.div`
             justify-content: space-between;
 
             p {
-                font-size: 1.1rem;
+                font-size: 0.65rem;
                 font-family: 'Roboto', sans-serif;
                 width: 170px;
                 }

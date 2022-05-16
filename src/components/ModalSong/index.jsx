@@ -64,7 +64,10 @@ const ModalSong = ({loadAlbum, idAlbum}) => {
                 Authorization: "jpss7693@gmail.com"
             }
         })
-        .then(response => loadAlbum())
+        .then(response => {
+            loadAlbum()
+            toast.success("Música adicionada com sucesso")
+        })
         .catch((_) => toast.error("Erro ao registrar uma música!"))
     }
 
