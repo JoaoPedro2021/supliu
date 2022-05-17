@@ -77,6 +77,10 @@ export const Box = styled.div`
                 display: flex;
                 width: 100vw;
             }
+            @media (min-width: 320px) and (max-width: 600px ) {
+                display: flex;
+                flex-wrap: wrap;
+        }
         }
     }
     
@@ -85,6 +89,7 @@ export const Box = styled.div`
 export const BoxBtn = styled.div`
     width: 200px;
     padding: 5px;
+    margin-top: 1.5rem;
 
     .btnPage {
         margin: 2px;
